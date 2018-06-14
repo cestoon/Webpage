@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	font-family: Microsoft Yahei;
+	line-height: 200%;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+
+}
+section{
+	display: inline-block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	animation: slide 180s infinite;
+}
+section>ul{
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+section>ul>li{
+	float: left;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	display: inline-block;
+	text-decoration: none;
+
+}
+section>ul>li>img{
+	width: 300%;
+	height: 100%;
+	opacity: 0.5;
+}
+@keyframes slide {
+  0% {
+  	left: 0px;
+  }
+  50%{
+  	left: -2700px;
+  }
+  100% {
+	left: 0px;
+  }
+}
+article{
+	position: relative;
+	margin: 0 auto;
+	background-color: rgba(189,183,107,0.5);
+	width: 1000px;
+	height: 1030%;
+	z-index: 2;
+}
+h1{
+	text-align: center;
+	padding-top:10px;
+	font-size:xx-large;
+}
+.pic{
+	position: relative;
+	width: 100%;
+}
+.pic>img{
+	width:200px;
+	margin: 10px 40%;
+}
+.content{
+	margin-bottom: 0px;
+	position: relative;
+}
+.content>p{
+	margin: 30px 50px;
+}
+.content>img{
+	margin: 10px 37%;
+	margin-bottom: 0px;
+}
